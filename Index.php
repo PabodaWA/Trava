@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,19 +49,28 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+  a {
+      color: white; /* Change link color */
+      text-decoration: none;/*remove underline*/
+    }
+
+    a:hover {
+      color: white; /* Change color when hovered */
+    }
 </style>
 </head>
 <body>
+ <?php include"./Indexheader.php"; ?>
+<a href="logging.php"><div class="bg-image img1"></div></a>
+<a href="logging.php"></a><div class="bg-image img2"></div></a>
+<a href="logging.php"></a><div class="bg-image img3"></div></a>
+<a href="logging.php"></a><div class="bg-image img4"></div></a>
+<a href="logging.php"></a><div class="bg-image img5"><div></a>
+<a href="logging.php"></a><div class="bg-image img6"></div></a>
 
-<div class="bg-image img1"></div>
-<div class="bg-image img2"></div>
-<div class="bg-image img3"></div>
-<div class="bg-image img4"></div>
-<div class="bg-image img5"></div>
-<div class="bg-image img6"></div>
-
-<div class="bg-text">Welcome to Trava <div>
+<div class="bg-text"><a href="logging.php">Welcome to Trava</a><div>
 
 
 </body>
 </html>
+
